@@ -2,4 +2,28 @@
 
 /* 回答はここに書いてね */
 
+.q2_content {
+  width: 900px;
+  background-color: #eff3f4;
+  padding: 20px;
+  margin: auto;
+}
+
+.q2__content__text {
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
+
+.q2__img1 {
+  margin-bottom: 10px;
+  margin-right: 20px;
+  float: left;
+}
+
+.q2__img2 {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  float: right;
+}
 /* 回答はここに書いてね */
