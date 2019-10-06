@@ -2,4 +2,72 @@
 
 /* 回答はここに書いてね */
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.small {
+  display: block;
+  width: 500px;
+  margin: auto;
+}
+
+.small-btn {
+  display: inline-block;
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 8%;
+  margin-left: 10px;
+}
+
+.middle-btn {
+  display: inline-block;
+  font-size: 21px;
+  padding: 5px 17px;
+  border-radius: 8%;
+  margin-left: 10px;
+}
+
+.large-btn {
+  display: inline-block;
+  font-size: 28px;
+  padding: 5px 20px;
+  border-radius: 8%;
+  margin-left: 10px;
+}
+
+.common-btn {
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+.common-btn:hover {
+  cursor: pointer;
+}
+
+.error-btn {
+  background-color: #ff4081;
+  color: #fff;
+}
+
+.error-btn:hover {
+  cursor: pointer;
+}
+
+.disable-btn {
+  background-color: #e5e5e5;
+  color: #fff;
+}
+
+.shadow-btn {
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 3px 2px #e5e5e5;
+}
+
+.shadow-btn:hover {
+  cursor: pointer;
+}
+
 /* 回答はここに書いてね */
