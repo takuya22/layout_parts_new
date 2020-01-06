@@ -1,15 +1,21 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.transition {
+.transition__container {
   overflow: hidden;
   width: 500px;
+  height: 333px;
   margin: auto;
 }
-.car_image:hover {
+.transition__container:hover .car_image {
   transition: 0.5s;
   transform: scale(1.5);
 }
+.transition__container:hover .trans__box {
+  transition: 0.5s;
+  transform: translateY(-100%);
+}
+
 .trans__box {
   width: 500px;
   height: 333px;
@@ -20,8 +26,33 @@
   padding: 20px;
   padding-top: 200px;
   color: white;
-  transform: translateX(150px);
 }
 
-
+.circle {
+  animation: ;
+  border: solid 10px #ecf1f2;
+  border-top: solid 10px #00bcd4;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  animation-name: animation-lotation;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes animation-lotation {
+  25%{
+    transform: rotate(90deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  75%{
+    transform: rotate(270deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
 /* 回答はここに書いてね */

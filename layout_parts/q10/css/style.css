@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.square {
+  box-sizing: border-box;
+  border: solid 5px #222;
+  border-radius: 30px;
+  width: 500px;
+  padding: 20px;
+  position: relative;
+  margin: 0 auto;
+}
+.triangle {
+  bottom: 0;
+  box-sizing: border-box;
+  border-right: 15px solid transparent;
+  border-top: 30px solid #222;
+  border-left: 15px solid transparent; 
+  content: "";
+  position: absolute;
+  z-index: 2;
+  transform: translateY(100%)
+}
+.text {
+  font-size: 16px;
+  line-height: 16px;
+}
 /* 回答はここに書いてね */
