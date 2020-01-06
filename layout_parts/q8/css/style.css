@@ -1,5 +1,148 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.btn__style {
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10%;
+  font-weight: 300;
+  transition: 0.1s;
+}
+.btn__style:hover {
+  transform: translateY(4px);
+  cursor: pointer;
+  border: none;
+}
+.btn__small {
+  font-size: small;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.btn__middle {
+  font-size: medium;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.btn__large {
+  font-size: large;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn__common {
+  color: #fff;
+  background-color: #00bcd4;
+  border-bottom: solid 4px #00a2ff;
+}
+.btn__error {
+  color: #fff;
+  background-color: #ff4081;
+  border-bottom: solid 4px #ff00b3;
+}
+.btn__disabled {
+  color: #fff;
+  background-color: #e5e5e5;
+  border-bottom: solid 4px #313131;
+}
+.btn__shadow {
+  color: #222;
+  background-color: #fff;
+  border: 1px solid #efefef;
+  border-bottom: solid 4px #e4ecff;
+  box-shadow: 0 0 4px gray;
+}
 
+.container {
+  background-color: #ecf1f2;
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+.form__title {
+  position: relative;
+  margin-bottom: 20px;
+}
+.form__title:before{
+  position: absolute;
+  top: 50%;
+  height: 1px;
+  left: 0;
+  width: 100%;
+  background-color: #ccc;
+  content: "";
+}
+.form__title__text {
+  position: relative;
+  width: 150px;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #ecf1f2;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.form__input__attr {
+  width: 300px;
+  float: left;
+}
+.form__input__text {
+  margin-top: 20px;
+  width: 380px;
+  height: 203px;
+  float: right;
+}
+.q8__input__textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.is_required {
+  color: red;
+}
+.main__items__title {
+  width: 100px;
+  padding: 5px;
+  float: left;
+  text-align: right;
+}
+.main__items__content {
+  width: 180px;
+  height: 20px;
+  float: right;
+}
+.q8__input__name {
+  width: 180px;
+  height: 20px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.main__titile__gender {
+  float: left;
+}
+.main__label__gender {
+  padding: 5px;
+  margin-left: 120px;
+}
+.q8__select__country {
+  width: 180px;
+}
+.age__over20 {
+  float: right;
+}
+.submit {
+  float: right;
+}
+.submit__btn {
+  font-size: 32px;
+}
+.form__input__items > .clearfix {
+  margin-top: 20px;
+}
 /* 回答はここに書いてね */
