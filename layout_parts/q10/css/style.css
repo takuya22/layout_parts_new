@@ -22,11 +22,12 @@
   transform: translateY(100%)
 }
 .mini-triangle {
-  bottom: 0;
+  bottom: 30px;
+  left: -10px;
   box-sizing: border-box;
   border-right: 10px solid transparent;
-  border-top: px solid #fff;
-  border-left: 7px solid transparent; 
+  border-top: 20px solid #fff;
+  border-left: 10px solid transparent; 
   content: "";
   position: absolute;
   z-index: 2;
