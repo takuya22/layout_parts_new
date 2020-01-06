@@ -4,25 +4,24 @@
 .menu_table {
   table-layout: fixed;
   width: 100%;
-
 }
 
-.menu_title, .row td:first-child{
+.menu_table th{
   background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;
   color: #fff;
 }
 
-.row:nth-child(odd) {
+.menu_table tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 
-.row:last-child{
+.menu_table tr:last-child{
   border-top: dashed #000 2px;
 }
 
-th,td {
+.menu_table td,th {
   padding: 10px;
   text-align: center;
   border: solid #dedede 1px;

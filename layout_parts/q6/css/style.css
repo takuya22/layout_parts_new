@@ -12,7 +12,7 @@
 }
 .margin_box {
   width: 90px;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
   background-color: #e6f2ff;
   padding: 10px 0px;

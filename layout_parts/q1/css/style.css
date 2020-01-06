@@ -1,22 +1,33 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.container {
-  background-color: #eff3f4;
-  width: 940px;
-  margin: auto;
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
 }
 
-.article_container {
+.q1__content {
+  background-color: #eff3f4;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 20px;
+  width: 940px;
+}
+
+.text_container {
   box-sizing: border-box;
   background-color: #3274ae;
   width: 270px;
   float: left;
   padding: 20px;
-  margin: 20px 0px 20px 20px;
+  margin-left: 20px;
+}
+.text_container:first-child{
+  margin-left: 0;
 }
 
-.article {
+.text {
   box-sizing: border-box;
   background-color: #eaf4ff;
   border: 10px solid #022336;
