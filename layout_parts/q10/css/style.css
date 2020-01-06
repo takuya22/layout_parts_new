@@ -21,6 +21,17 @@
   z-index: 2;
   transform: translateY(100%)
 }
+.mini-triangle {
+  bottom: 0;
+  box-sizing: border-box;
+  border-right: 10px solid transparent;
+  border-top: px solid #fff;
+  border-left: 7px solid transparent; 
+  content: "";
+  position: absolute;
+  z-index: 2;
+  transform: translateY(100%)
+}
 .text {
   font-size: 16px;
   line-height: 16px;
