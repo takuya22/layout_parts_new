@@ -10,9 +10,10 @@
   margin: auto;
   width: 100%;
   text-align: center;
-}
-.table_top:last-child {
   margin-top: 20px;
+}
+.table_top:first-child {
+  margin-top: 0;
 }
 
 .t_block {
