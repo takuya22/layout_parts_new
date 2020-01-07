@@ -76,7 +76,7 @@
   z-index: 8;
 }
 
-.box_q5.b8::after{
+.b8::after{
   top: 0px;
   left: 80px;
   background-color: #ffefd3;
@@ -84,6 +84,7 @@
   height: 20px;
   z-index: 9;
   content: "";
+  position: absolute;
 }
 
 .b9 {
