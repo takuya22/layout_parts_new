@@ -11,19 +11,26 @@
 .car_image,.trans__box {
   transition: 0.5s;
 }
-.transition__container:hover .car_image {
-  transition: 0.5s;
-  transform: scale(1.5);
+.transition__container:hover {
   cursor: pointer;
 }
+.transition__container:hover .car_image {
+  transform: scale(1.5);
+}
 .transition__container:hover .trans__box {
-  transition: 0.5s;
   transform: translateY(-100%);
 }
 .trans__box {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
   background: linear-gradient(to top, rgba(15, 15, 15, 0.8), rgba(255, 255, 255,0));
 }
 .trans__text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   box-sizing: border-box;
   color: white;
   padding: 20px;
