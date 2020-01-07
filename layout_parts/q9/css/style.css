@@ -8,34 +8,27 @@
   margin: auto;
   position: relative;
 }
+.car_image,.trans__box {
+  transition: 0.5s;
+}
 .transition__container:hover .car_image {
   transition: 0.5s;
   transform: scale(1.5);
+  cursor: pointer;
 }
 .transition__container:hover .trans__box {
   transition: 0.5s;
   transform: translateY(-100%);
 }
-
 .trans__box {
-  /* width: 500px;
-  height: 333px; */
-  /* margin: auto; */
-  background: linear-gradient(to top, rgba(15, 15, 15, 0.5), rgba(255, 255, 255,0));
-  position: absolute;
-  top: 100%;
+  background: linear-gradient(to top, rgba(15, 15, 15, 0.8), rgba(255, 255, 255,0));
 }
 .trans__text {
   box-sizing: border-box;
   color: white;
-  height: 333px;
   padding: 20px;
-  text-align: end;
-  width: 500px;
   word-break: break-all;
-  z-index: 2;
 }
-
 .circle {
   border: solid 10px #ecf1f2;
   border-top: solid 10px #00bcd4;
