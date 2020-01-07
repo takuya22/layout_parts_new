@@ -10,29 +10,25 @@
   position: relative;
   margin: 0 auto;
 }
-.triangle {
-  bottom: 0;
-  box-sizing: border-box;
+.square::before,.square::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+}
+.square::before {
+  left: 20px;
   border-right: 15px solid transparent;
   border-top: 30px solid #222;
   border-left: 15px solid transparent; 
-  content: "";
-  position: absolute;
-  z-index: 2;
-  transform: translateY(100%)
 }
-.mini-triangle {
-  bottom: 30px;
-  left: -10px;
-  box-sizing: border-box;
+.square::after {
+  left: 25px;
   border-right: 10px solid transparent;
   border-top: 20px solid #fff;
   border-left: 10px solid transparent; 
-  content: "";
-  position: absolute;
-  z-index: 2;
-  transform: translateY(100%)
+  z-index: 10;
 }
+
 .text {
   font-size: 16px;
   line-height: 16px;
