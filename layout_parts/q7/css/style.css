@@ -24,9 +24,10 @@
 .table__cell {
   display: table-cell;
   vertical-align: middle;
+  padding-left: 50px;
 }
 .table__cell:first-child {
-  padding-right: 50px;
+  padding-left: 0;
 }
 .q7__inline {
   font-size: 0;
@@ -48,12 +49,17 @@
   display: inline-block;
   width: 300px;
   box-sizing: border-box;
+  font-size: 16px;
 }
 .q7__right {
   box-sizing: border-box;
+  display: inline-block;
   width: 100%;
   margin-left: -300px;
   padding-left: 350px;
-  float: right;
+  font-size: 16px;
+}
+.font-size {
+  font-size: 0;
 }
 /* 回答はここに書いてね */
