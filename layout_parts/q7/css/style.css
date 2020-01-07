@@ -1,23 +1,23 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
-.float__box {
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.q7__common {
   box-sizing: border-box;
   width: 225px;
   font-size: 16px;
 }
-.float__box:first-child {
+
+.float__box__left {
   float: left;
   margin-right: 50px;
 }
-.float__box:last-child {
+.float__box__right {
   float: right;
-}
-.float__clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
 }
 
 .table__box {
@@ -29,21 +29,15 @@
 }
 .table__cell_left { 
   margin-right: 50px;
-  box-sizing: border-box;
-  width: 225px;
 }
 
 .inner__left {
   display: inline-block;
-  width: 225px;
-  box-sizing: border-box;
-  margin-right: 45px;
+  margin-right: 50px;
   vertical-align: middle;
 }
 .inner_right {
   display: inline-block;
-  width: 225px;
-  box-sizing: border-box;
   vertical-align: middle;
 }
 
@@ -53,17 +47,8 @@
   justify-content: space-around;
   align-items: flex-end;
 }
-.flex__box__left{
-  width: 225px;
-  box-sizing: border-box;
-}
-.flex__box__right{
-  width: 225px;
-  box-sizing: border-box;
-}
 
 .q7__left {
-  display: inline-block;
   width: 300px;
   box-sizing: border-box;
   float: left;
