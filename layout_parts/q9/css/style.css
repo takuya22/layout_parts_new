@@ -6,6 +6,7 @@
   width: 500px;
   height: 333px;
   margin: auto;
+  position: relative;
 }
 .transition__container:hover .car_image {
   transition: 0.5s;
@@ -17,19 +18,25 @@
 }
 
 .trans__box {
-  width: 500px;
-  height: 333px;
-  margin: auto;
+  /* width: 500px;
+  height: 333px; */
+  /* margin: auto; */
   background: linear-gradient(to top, rgba(15, 15, 15, 0.5), rgba(255, 255, 255,0));
+  position: absolute;
+  top: 100%;
 }
 .trans__text {
-  padding: 20px;
-  padding-top: 200px;
+  box-sizing: border-box;
   color: white;
+  height: 333px;
+  padding: 20px;
+  text-align: end;
+  width: 500px;
+  word-break: break-all;
+  z-index: 2;
 }
 
 .circle {
-  animation: ;
   border: solid 10px #ecf1f2;
   border-top: solid 10px #00bcd4;
   border-radius: 100%;
