@@ -1,19 +1,21 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.table {
+  padding: 20px;
+}
 .table_top {
   box-sizing: border-box;
   display: table;
   margin: auto;
   width: 100%;
-  padding: 20px;
   text-align: center;
 }
-.table_top:last-child{
-  padding-top: 0px;
+.table_top:last-child {
+  margin-top: 20px;
 }
 
-.t_block{
+.t_block {
   padding: 20px;
   display: table-cell;
 }
