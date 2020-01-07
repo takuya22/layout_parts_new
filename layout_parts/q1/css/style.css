@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.clearfix::after{
+.clearfix::after {
   content: "";
   clear: both;
   display: block;
@@ -23,7 +23,7 @@
   padding: 20px;
   margin-left: 20px;
 }
-.text_container:first-child{
+.text_container:first-child {
   margin-left: 0;
 }
 
